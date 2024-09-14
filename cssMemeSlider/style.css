@@ -1,0 +1,30 @@
+.slider {
+    max-width: 800px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.slide {
+    display: none;
+    margin-bottom: 25px;
+}
+
+.slide label {
+    min-width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.slide img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+
+.control {
+    display: flex;
+}
+
+.control input:checked ~ label {
+    display: flex;
+}
